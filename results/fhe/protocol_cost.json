@@ -1,0 +1,47 @@
+[
+  {
+    "n_parties": 5,
+    "log_n": 14,
+    "slots": 8192,
+    "ct_x_ct_mul_relin_rescale_ms": 35.4003,
+    "pt_x_ct_mul_rescale_ms": 4.88065,
+    "encrypted_reciprocal_ms": 3155.557,
+    "reciprocal_refreshes": 2,
+    "reciprocal_rel_err": 1.3089637842332522e-8,
+    "key_switch_to_querier_ms": 95.099,
+    "key_switch_share_bytes_total": 10487910,
+    "selection_mask_ms": 1.5015,
+    "ciphertext_add_ms": 0.7733,
+    "rotation_ms": 32.3568
+  },
+  {
+    "n_parties": 10,
+    "log_n": 14,
+    "slots": 8192,
+    "ct_x_ct_mul_relin_rescale_ms": 35.017700000000005,
+    "pt_x_ct_mul_rescale_ms": 4.8665,
+    "encrypted_reciprocal_ms": 4212.898,
+    "reciprocal_refreshes": 2,
+    "reciprocal_rel_err": 1.8953981834546665e-8,
+    "key_switch_to_querier_ms": 181.094,
+    "key_switch_share_bytes_total": 20975820,
+    "selection_mask_ms": 1.05395,
+    "ciphertext_add_ms": 1.04285,
+    "rotation_ms": 32.009100000000004
+  },
+  {
+    "n_parties": 20,
+    "log_n": 14,
+    "slots": 8192,
+    "ct_x_ct_mul_relin_rescale_ms": 35.2414,
+    "pt_x_ct_mul_rescale_ms": 4.65975,
+    "encrypted_reciprocal_ms": 6298.887,
+    "reciprocal_refreshes": 2,
+    "reciprocal_rel_err": 3.10428214688508e-8,
+    "key_switch_to_querier_ms": 360.922,
+    "key_switch_share_bytes_total": 41951640,
+    "selection_mask_ms": 1.04755,
+    "ciphertext_add_ms": 1.1990500000000002,
+    "rotation_ms": 31.348149999999997
+  }
+]

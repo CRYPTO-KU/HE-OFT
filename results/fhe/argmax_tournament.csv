@@ -1,0 +1,6 @@
+n_parties,logN,C,c_padded,tournament_rounds,collective_refreshes,argmax_total_ms,in_refresh_ms,local_eval_ms,correct_max,max_abs_error
+10,15,4,4,2,9,31243.5,12273.3,18970.1,true,0.0000
+10,15,6,8,3,14,47300.5,18910.3,28390.1,true,0.0000
+10,15,14,16,4,19,63743.3,25881.1,37862.2,true,0.0000
+10,15,77,128,7,34,112449.4,46313.8,66135.6,true,0.0000
+10,15,100,128,7,34,112969.6,46319.7,66649.9,true,0.0000

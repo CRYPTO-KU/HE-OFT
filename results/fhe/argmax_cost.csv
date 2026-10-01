@@ -1,0 +1,6 @@
+n_parties,logN,C,max_level,pairwise_max_ops,collective_refreshes,argmax_total_ms,in_refresh_ms,local_eval_ms,correct_max,max_abs_error
+10,15,4,14,3,14,46965.5,18859.8,28105.7,true,0.0000
+10,15,6,14,5,24,78459.6,32137.3,46322.3,true,0.0000
+10,15,14,14,13,64,208041.5,86181.7,121859.8,true,0.0000
+10,15,77,14,76,379,1225902.9,510553.8,715349.1,true,0.0000
+10,15,100,14,99,494,1587433.7,667843.6,919590.1,true,0.0000

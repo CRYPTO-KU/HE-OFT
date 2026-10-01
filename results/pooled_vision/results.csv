@@ -1,0 +1,13 @@
+task,C,seed,mode,steps,n_test,acc
+cifar100,100,42,matched_per_client,200,2000,0.7855
+cifar100,100,42,matched_per_client,200,10000,0.7805
+cifar100,100,42,matched_total,2000,2000,0.894
+cifar100,100,42,matched_total,2000,10000,0.8944
+cifar100,100,43,matched_per_client,200,2000,0.782
+cifar100,100,43,matched_per_client,200,10000,0.7939
+cifar100,100,43,matched_total,2000,2000,0.895
+cifar100,100,43,matched_total,2000,10000,0.8958
+cifar100,100,44,matched_per_client,200,2000,0.774
+cifar100,100,44,matched_per_client,200,10000,0.786
+cifar100,100,44,matched_total,2000,2000,0.89
+cifar100,100,44,matched_total,2000,10000,0.894

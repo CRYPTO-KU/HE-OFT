@@ -1,0 +1,16 @@
+task,C,N,seed,mode,n,acc_mean,acc_min,acc_max,note
+dbpedia_14,14,10,42,current,1,0.9058,0.9058,0.9058,agg adapter + agg head
+dbpedia_14,14,10,42,local,10,0.4613,0.1976,0.7906,own adapter + own head
+dbpedia_14,14,10,42,B_personal,10,0.7591,0.5716,0.8796,own adapter + agg head
+dbpedia_14,14,10,42,A_headonly,1,0.8026,0.8026,0.8026,"r=0, head only, federated"
+dbpedia_14,14,10,42,sel_gp_rarefill,10,0.8026,0.8026,0.8026,picked A (E_B=0.7553 E_A=0.8032)
+dbpedia_14,14,20,42,current,1,0.876,0.876,0.876,agg adapter + agg head
+dbpedia_14,14,20,42,local,20,0.3645,0.2186,0.5972,own adapter + own head
+dbpedia_14,14,20,42,B_personal,20,0.6843,0.3942,0.8742,own adapter + agg head
+dbpedia_14,14,20,42,A_headonly,1,0.8262,0.8262,0.8262,"r=0, head only, federated"
+dbpedia_14,14,20,42,sel_gp_rarefill,20,0.8262,0.8262,0.8262,picked A (E_B=0.6410 E_A=0.8399)
+dbpedia_14,14,50,42,current,1,0.9156,0.9156,0.9156,agg adapter + agg head
+dbpedia_14,14,50,42,local,50,0.3743,0.0698,0.5854,own adapter + own head
+dbpedia_14,14,50,42,B_personal,50,0.6914,0.0698,0.8994,own adapter + agg head
+dbpedia_14,14,50,42,A_headonly,1,0.8822,0.8822,0.8822,"r=0, head only, federated"
+dbpedia_14,14,50,42,sel_gp_rarefill,50,0.8822,0.8822,0.8822,picked A (E_B=0.6773 E_A=0.8770)

@@ -1,0 +1,4 @@
+n_parties,logN,C,mult_levels,min_level,max_level,log_bound,collective_refresh_ms,threshold_decrypt_ms,refresh_rel_l2,passed
+5,15,100,12,3,12,173,586.23,134.75,4.076e-10,true
+10,15,100,12,3,12,173,1056.88,192.12,6.400e-10,true
+20,15,100,12,3,12,173,2046.88,361.48,9.366e-10,true

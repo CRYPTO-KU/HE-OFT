@@ -1,0 +1,88 @@
+# Matplotlib style for paper figures. Applied by plotstyle.py, which also sets
+# the font family and sizes from paper/.paper-meta.yml. Use plotstyle.py rather
+# than this file directly, or the sizes will not match the paper.
+
+# --- output ----------------------------------------------------------------
+# Type 42 is TrueType. Matplotlib's default (Type 3) is rejected by IEEE and
+# ACM camera-ready font checks. This one line prevents a submission bounce.
+pdf.fonttype:       42
+ps.fonttype:        42
+pdf.compression:    9
+savefig.format:     pdf
+savefig.bbox:       tight
+savefig.pad_inches: 0.012
+savefig.transparent: False
+figure.dpi:         200
+
+# --- text ------------------------------------------------------------------
+font.size:          8
+axes.labelsize:     8
+axes.titlesize:     8
+xtick.labelsize:    7
+ytick.labelsize:    7
+legend.fontsize:    7
+figure.titlesize:   8
+axes.labelcolor:    202020
+text.color:         202020
+
+# --- axes ------------------------------------------------------------------
+axes.linewidth:     0.7
+axes.edgecolor:     303030
+axes.facecolor:     white
+axes.labelpad:      3.0
+axes.spines.top:    True
+axes.spines.right:  True
+axes.axisbelow:     True
+axes.titlelocation: left
+axes.titlepad:      4.0
+
+# --- grid: light and dotted, never competing with the data -----------------
+axes.grid:          True
+grid.color:         B7BCC4
+grid.linestyle:     :
+grid.linewidth:     0.5
+grid.alpha:         0.7
+
+# --- ticks -----------------------------------------------------------------
+xtick.direction:    out
+ytick.direction:    out
+xtick.color:        303030
+ytick.color:        303030
+xtick.major.size:   2.8
+ytick.major.size:   2.8
+xtick.major.width:  0.7
+ytick.major.width:  0.7
+xtick.minor.size:   1.6
+ytick.minor.size:   1.6
+xtick.major.pad:    2.5
+ytick.major.pad:    2.5
+
+# --- lines and markers -----------------------------------------------------
+lines.linewidth:    1.4
+lines.markersize:   3.4
+lines.markeredgewidth: 0.0
+lines.solid_capstyle: round
+lines.dash_capstyle:  round
+scatter.marker:     o
+
+# --- legend ----------------------------------------------------------------
+legend.frameon:     True
+legend.framealpha:  0.95
+legend.facecolor:   white
+legend.edgecolor:   C4C8CE
+legend.fancybox:    False
+legend.borderpad:   0.4
+legend.labelspacing: 0.3
+legend.handlelength: 1.6
+legend.handletextpad: 0.5
+legend.borderaxespad: 0.5
+
+# --- figure ----------------------------------------------------------------
+figure.facecolor:   white
+figure.frameon:     False
+figure.constrained_layout.use: True
+figure.constrained_layout.h_pad: 0.02
+figure.constrained_layout.w_pad: 0.02
+
+# --- error bars ------------------------------------------------------------
+errorbar.capsize:   1.8

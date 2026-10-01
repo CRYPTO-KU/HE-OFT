@@ -1,0 +1,28 @@
+dataset,C,seed,mode,n,acc_mean,acc_min,acc_max,note
+cifar100,100,42,A_headonly,1,0.738,0.738,0.738,"r=0, head only, federated"
+cifar100,100,42,B_personal,10,0.7751,0.769,0.7825,own adapter + agg head
+cifar100,100,42,current,1,0.7885,0.7885,0.7885,agg adapter + agg head
+cifar100,100,42,local,10,0.2066,0.174,0.245,own adapter + own head
+cifar100,100,42,sel_fed_balanced,10,0.7751,0.769,0.7825,federation picked B (B=0.7594 A=0.7164)
+cifar100,100,42,sel_federated,10,0.7751,0.769,0.7825,federation picked B (B=0.7950 A=0.7330)
+cifar100,100,42,sel_globalprior,10,0.738,0.738,0.738,picked A (E_B=0.3672 E_A=0.7423; true B=0.7751 A=0.7380)
+cifar100,100,42,sel_gp_rarefill,10,0.738,0.738,0.738,picked A (E_B=0.7259 E_A=0.7423; true B=0.7751 A=0.7380)
+cifar100,100,42,sel_perclient,10,0.7751,0.769,0.7825,"per-client vote (biased), 10/10 chose B"
+cifar100,100,43,A_headonly,1,0.747,0.747,0.747,"r=0, head only, federated"
+cifar100,100,43,B_personal,10,0.7714,0.7545,0.787,own adapter + agg head
+cifar100,100,43,current,1,0.78,0.78,0.78,agg adapter + agg head
+cifar100,100,43,local,10,0.1886,0.1485,0.2505,own adapter + own head
+cifar100,100,43,sel_fed_balanced,10,0.7714,0.7545,0.787,federation picked B (B=0.8052 A=0.7461)
+cifar100,100,43,sel_federated,10,0.7714,0.7545,0.787,federation picked B (B=0.8188 A=0.7548)
+cifar100,100,43,sel_globalprior,10,0.747,0.747,0.747,picked A (E_B=0.3828 E_A=0.7632; true B=0.7714 A=0.7470)
+cifar100,100,43,sel_gp_rarefill,10,0.7714,0.7545,0.787,picked B (E_B=0.7957 E_A=0.7632; true B=0.7714 A=0.7470)
+cifar100,100,43,sel_perclient,10,0.7714,0.7545,0.787,"per-client vote (biased), 10/10 chose B"
+cifar100,100,44,A_headonly,1,0.758,0.758,0.758,"r=0, head only, federated"
+cifar100,100,44,B_personal,10,0.7768,0.7685,0.7885,own adapter + agg head
+cifar100,100,44,current,1,0.785,0.785,0.785,agg adapter + agg head
+cifar100,100,44,local,10,0.1969,0.1475,0.2375,own adapter + own head
+cifar100,100,44,sel_fed_balanced,10,0.7768,0.7685,0.7885,federation picked B (B=0.7984 A=0.7394)
+cifar100,100,44,sel_federated,10,0.7768,0.7685,0.7885,federation picked B (B=0.8268 A=0.7517)
+cifar100,100,44,sel_globalprior,10,0.758,0.758,0.758,picked A (E_B=0.3927 E_A=0.7708; true B=0.7768 A=0.7580)
+cifar100,100,44,sel_gp_rarefill,10,0.758,0.758,0.758,picked A (E_B=0.7651 E_A=0.7708; true B=0.7768 A=0.7580)
+cifar100,100,44,sel_perclient,10,0.7768,0.7685,0.7885,"per-client vote (biased), 10/10 chose B"

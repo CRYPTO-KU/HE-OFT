@@ -1,0 +1,13 @@
+task,C,seed,n_clients,holders_0,holders_1,holders_2,holders_3p
+ag_news,4,42,10,0,0,0,4
+ag_news,4,43,10,0,0,0,4
+ag_news,4,44,7,0,0,0,4
+trec,6,42,10,0,0,0,6
+trec,6,43,10,0,0,0,6
+trec,6,44,9,0,0,0,6
+dbpedia_14,14,42,10,0,0,0,14
+dbpedia_14,14,43,10,0,0,0,14
+dbpedia_14,14,44,10,0,0,0,14
+banking77,77,42,10,0,0,0,77
+banking77,77,43,10,0,0,2,75
+banking77,77,44,10,0,1,2,74

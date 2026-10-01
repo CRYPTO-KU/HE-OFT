@@ -1,0 +1,7 @@
+# Measured from IEEEtran with the journal option.
+#   \the\columnwidth = 252.0pt   \the\textwidth = 516.0pt
+column_width_pt: 252.0
+text_width_pt: 516.0
+caption_pt: 8
+body_pt: 10
+font_family: Times New Roman

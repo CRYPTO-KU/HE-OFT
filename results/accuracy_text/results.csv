@@ -1,0 +1,109 @@
+task,C,seed,mode,n,acc_mean,acc_min,acc_max,note
+ag_news,4,42,A_headonly,1,0.8086,0.8086,0.8086,"r=0, head only, federated"
+ag_news,4,42,B_personal,10,0.5024,0.3926,0.6418,own adapter + agg head
+ag_news,4,42,current,1,0.8036,0.8036,0.8036,agg adapter + agg head
+ag_news,4,42,local,10,0.4818,0.3802,0.6406,own adapter + own head
+ag_news,4,42,sel_fed_balanced,10,0.5024,0.3926,0.6418,federation picked B (B=0.7399 A=0.7303)
+ag_news,4,42,sel_federated,10,0.5024,0.3926,0.6418,federation picked B (B=0.9489 A=0.8134)
+ag_news,4,42,sel_globalprior,10,0.8086,0.8086,0.8086,picked A (E_B=0.5140 E_A=0.8152; true B=0.5024 A=0.8086)
+ag_news,4,42,sel_gp_rarefill,10,0.8086,0.8086,0.8086,picked A (E_B=0.5140 E_A=0.8152; true B=0.5024 A=0.8086)
+ag_news,4,42,sel_perclient,10,0.5423,0.3926,0.8086,"per-client vote (biased), 9/10 chose B"
+ag_news,4,43,A_headonly,1,0.7356,0.7356,0.7356,"r=0, head only, federated"
+ag_news,4,43,B_personal,10,0.4728,0.2446,0.7738,own adapter + agg head
+ag_news,4,43,current,1,0.7538,0.7538,0.7538,agg adapter + agg head
+ag_news,4,43,local,10,0.4731,0.2446,0.7932,own adapter + own head
+ag_news,4,43,sel_fed_balanced,10,0.4728,0.2446,0.7738,federation picked B (B=0.6892 A=0.6259)
+ag_news,4,43,sel_federated,10,0.4728,0.2446,0.7738,federation picked B (B=0.9805 A=0.7390)
+ag_news,4,43,sel_globalprior,10,0.7356,0.7356,0.7356,picked A (E_B=0.4536 E_A=0.7379; true B=0.4728 A=0.7356)
+ag_news,4,43,sel_gp_rarefill,10,0.7356,0.7356,0.7356,picked A (E_B=0.4536 E_A=0.7379; true B=0.4728 A=0.7356)
+ag_news,4,43,sel_perclient,10,0.4728,0.2446,0.7738,"per-client vote (biased), 10/10 chose B"
+ag_news,4,44,A_headonly,1,0.4018,0.4018,0.4018,"r=0, head only, federated"
+ag_news,4,44,B_personal,7,0.4614,0.2534,0.7344,own adapter + agg head
+ag_news,4,44,current,1,0.66,0.66,0.66,agg adapter + agg head
+ag_news,4,44,local,7,0.4698,0.2534,0.7798,own adapter + own head
+ag_news,4,44,sel_fed_balanced,7,0.4614,0.2534,0.7344,federation picked B (B=0.7571 A=0.3293)
+ag_news,4,44,sel_federated,7,0.4614,0.2534,0.7344,federation picked B (B=0.9755 A=0.3940)
+ag_news,4,44,sel_globalprior,7,0.4614,0.2534,0.7344,picked B (E_B=0.4437 E_A=0.3922; true B=0.4614 A=0.4018)
+ag_news,4,44,sel_gp_rarefill,7,0.4614,0.2534,0.7344,picked B (E_B=0.4437 E_A=0.3922; true B=0.4614 A=0.4018)
+ag_news,4,44,sel_perclient,7,0.4614,0.2534,0.7344,"per-client vote (biased), 7/7 chose B"
+banking77,77,42,A_headonly,1,0.2386,0.2386,0.2386,"r=0, head only, federated"
+banking77,77,42,B_personal,10,0.6723,0.6231,0.738,own adapter + agg head
+banking77,77,42,current,1,0.7461,0.7461,0.7461,agg adapter + agg head
+banking77,77,42,local,10,0.2452,0.176,0.3205,own adapter + own head
+banking77,77,42,sel_fed_balanced,10,0.6723,0.6231,0.738,federation picked B (B=0.7660 A=0.2027)
+banking77,77,42,sel_federated,10,0.6723,0.6231,0.738,federation picked B (B=0.8422 A=0.2289)
+banking77,77,42,sel_globalprior,10,0.6723,0.6231,0.738,picked B (E_B=0.3789 E_A=0.2493; true B=0.6723 A=0.2386)
+banking77,77,42,sel_gp_rarefill,10,0.6723,0.6231,0.738,picked B (E_B=0.7047 E_A=0.2493; true B=0.6723 A=0.2386)
+banking77,77,42,sel_perclient,10,0.6723,0.6231,0.738,"per-client vote (biased), 10/10 chose B"
+banking77,77,43,A_headonly,1,0.2016,0.2016,0.2016,"r=0, head only, federated"
+banking77,77,43,B_personal,10,0.6958,0.6685,0.7419,own adapter + agg head
+banking77,77,43,current,1,0.7812,0.7812,0.7812,agg adapter + agg head
+banking77,77,43,local,10,0.2472,0.1971,0.2857,own adapter + own head
+banking77,77,43,sel_fed_balanced,10,0.6958,0.6685,0.7419,federation picked B (B=0.7921 A=0.1321)
+banking77,77,43,sel_federated,10,0.6958,0.6685,0.7419,federation picked B (B=0.8542 A=0.1889)
+banking77,77,43,sel_globalprior,10,0.6958,0.6685,0.7419,picked B (E_B=0.3906 E_A=0.2116; true B=0.6958 A=0.2016)
+banking77,77,43,sel_gp_rarefill,10,0.6958,0.6685,0.7419,picked B (E_B=0.7463 E_A=0.2116; true B=0.6958 A=0.2016)
+banking77,77,43,sel_perclient,10,0.6958,0.6685,0.7419,"per-client vote (biased), 10/10 chose B"
+banking77,77,44,A_headonly,1,0.1782,0.1782,0.1782,"r=0, head only, federated"
+banking77,77,44,B_personal,10,0.6889,0.6354,0.7276,own adapter + agg head
+banking77,77,44,current,1,0.7536,0.7536,0.7536,agg adapter + agg head
+banking77,77,44,local,10,0.2543,0.2101,0.3166,own adapter + own head
+banking77,77,44,sel_fed_balanced,10,0.6889,0.6354,0.7276,federation picked B (B=0.7613 A=0.1512)
+banking77,77,44,sel_federated,10,0.6889,0.6354,0.7276,federation picked B (B=0.8429 A=0.1650)
+banking77,77,44,sel_globalprior,10,0.6889,0.6354,0.7276,picked B (E_B=0.4169 E_A=0.1801; true B=0.6889 A=0.1782)
+banking77,77,44,sel_gp_rarefill,10,0.6889,0.6354,0.7276,picked B (E_B=0.6989 E_A=0.1801; true B=0.6889 A=0.1782)
+banking77,77,44,sel_perclient,10,0.6889,0.6354,0.7276,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,42,A_headonly,1,0.8026,0.8026,0.8026,"r=0, head only, federated"
+dbpedia_14,14,42,B_personal,10,0.7591,0.5716,0.8796,own adapter + agg head
+dbpedia_14,14,42,current,1,0.9058,0.9058,0.9058,agg adapter + agg head
+dbpedia_14,14,42,local,10,0.4613,0.1976,0.7906,own adapter + own head
+dbpedia_14,14,42,sel_fed_balanced,10,0.7591,0.5716,0.8796,federation picked B (B=0.8823 A=0.7841)
+dbpedia_14,14,42,sel_federated,10,0.7591,0.5716,0.8796,federation picked B (B=0.9870 A=0.8017)
+dbpedia_14,14,42,sel_globalprior,10,0.8026,0.8026,0.8026,picked A (E_B=0.5458 E_A=0.8032; true B=0.7591 A=0.8026)
+dbpedia_14,14,42,sel_gp_rarefill,10,0.8026,0.8026,0.8026,picked A (E_B=0.7553 E_A=0.8032; true B=0.7591 A=0.8026)
+dbpedia_14,14,42,sel_perclient,10,0.7591,0.5716,0.8796,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,43,A_headonly,1,0.7972,0.7972,0.7972,"r=0, head only, federated"
+dbpedia_14,14,43,B_personal,10,0.764,0.6042,0.9164,own adapter + agg head
+dbpedia_14,14,43,current,1,0.9462,0.9462,0.9462,agg adapter + agg head
+dbpedia_14,14,43,local,10,0.4459,0.2338,0.6782,own adapter + own head
+dbpedia_14,14,43,sel_fed_balanced,10,0.764,0.6042,0.9164,federation picked B (B=0.9033 A=0.7956)
+dbpedia_14,14,43,sel_federated,10,0.764,0.6042,0.9164,federation picked B (B=0.9820 A=0.7909)
+dbpedia_14,14,43,sel_globalprior,10,0.7972,0.7972,0.7972,picked A (E_B=0.5459 E_A=0.7944; true B=0.7640 A=0.7972)
+dbpedia_14,14,43,sel_gp_rarefill,10,0.7972,0.7972,0.7972,picked A (E_B=0.6141 E_A=0.7944; true B=0.7640 A=0.7972)
+dbpedia_14,14,43,sel_perclient,10,0.764,0.6042,0.9164,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,44,A_headonly,1,0.7666,0.7666,0.7666,"r=0, head only, federated"
+dbpedia_14,14,44,B_personal,10,0.7378,0.5438,0.8478,own adapter + agg head
+dbpedia_14,14,44,current,1,0.922,0.922,0.922,agg adapter + agg head
+dbpedia_14,14,44,local,10,0.4442,0.2846,0.627,own adapter + own head
+dbpedia_14,14,44,sel_fed_balanced,10,0.7378,0.5438,0.8478,federation picked B (B=0.9193 A=0.7702)
+dbpedia_14,14,44,sel_federated,10,0.7378,0.5438,0.8478,federation picked B (B=0.9865 A=0.7702)
+dbpedia_14,14,44,sel_globalprior,10,0.7666,0.7666,0.7666,picked A (E_B=0.6148 E_A=0.7715; true B=0.7378 A=0.7666)
+dbpedia_14,14,44,sel_gp_rarefill,10,0.7666,0.7666,0.7666,picked A (E_B=0.7640 E_A=0.7715; true B=0.7378 A=0.7666)
+dbpedia_14,14,44,sel_perclient,10,0.7378,0.5438,0.8478,"per-client vote (biased), 10/10 chose B"
+trec,6,42,A_headonly,1,0.594,0.594,0.594,"r=0, head only, federated"
+trec,6,42,B_personal,10,0.4754,0.276,0.566,own adapter + agg head
+trec,6,42,current,1,0.748,0.748,0.748,agg adapter + agg head
+trec,6,42,local,10,0.437,0.276,0.526,own adapter + own head
+trec,6,42,sel_fed_balanced,10,0.4754,0.276,0.566,federation picked B (B=0.6916 A=0.3668)
+trec,6,42,sel_federated,10,0.4754,0.276,0.566,federation picked B (B=0.9416 A=0.5460)
+trec,6,42,sel_globalprior,10,0.594,0.594,0.594,picked A (E_B=0.4830 E_A=0.5589; true B=0.4754 A=0.5940)
+trec,6,42,sel_gp_rarefill,10,0.594,0.594,0.594,picked A (E_B=0.4830 E_A=0.5589; true B=0.4754 A=0.5940)
+trec,6,42,sel_perclient,10,0.5072,0.374,0.594,"per-client vote (biased), 9/10 chose B"
+trec,6,43,A_headonly,1,0.54,0.54,0.54,"r=0, head only, federated"
+trec,6,43,B_personal,10,0.3512,0.13,0.762,own adapter + agg head
+trec,6,43,current,1,0.664,0.664,0.664,agg adapter + agg head
+trec,6,43,local,10,0.3408,0.124,0.746,own adapter + own head
+trec,6,43,sel_fed_balanced,10,0.3512,0.13,0.762,federation picked B (B=0.7466 A=0.4683)
+trec,6,43,sel_federated,10,0.3512,0.13,0.762,federation picked B (B=0.9227 A=0.4934)
+trec,6,43,sel_globalprior,10,0.54,0.54,0.54,picked A (E_B=0.4320 E_A=0.5028; true B=0.3512 A=0.5400)
+trec,6,43,sel_gp_rarefill,10,0.54,0.54,0.54,picked A (E_B=0.4320 E_A=0.5028; true B=0.3512 A=0.5400)
+trec,6,43,sel_perclient,10,0.3512,0.13,0.762,"per-client vote (biased), 10/10 chose B"
+trec,6,44,A_headonly,1,0.686,0.686,0.686,"r=0, head only, federated"
+trec,6,44,B_personal,9,0.4598,0.188,0.682,own adapter + agg head
+trec,6,44,current,1,0.72,0.72,0.72,agg adapter + agg head
+trec,6,44,local,9,0.4207,0.188,0.662,own adapter + own head
+trec,6,44,sel_fed_balanced,9,0.4598,0.188,0.682,federation picked B (B=0.6574 A=0.4773)
+trec,6,44,sel_federated,9,0.4598,0.188,0.682,federation picked B (B=0.9323 A=0.5712)
+trec,6,44,sel_globalprior,9,0.686,0.686,0.686,picked A (E_B=0.4717 E_A=0.5633; true B=0.4598 A=0.6860)
+trec,6,44,sel_gp_rarefill,9,0.686,0.686,0.686,picked A (E_B=0.4717 E_A=0.5633; true B=0.4598 A=0.6860)
+trec,6,44,sel_perclient,9,0.4598,0.188,0.682,"per-client vote (biased), 9/9 chose B"

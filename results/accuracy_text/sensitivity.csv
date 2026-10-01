@@ -1,0 +1,100 @@
+task,C,N,alpha,K,seed,mode,n,acc_mean,acc_min,acc_max,note
+dbpedia_14,14,10,0.05,200,42,current,1,0.9254,0.9254,0.9254,agg adapter + agg head
+dbpedia_14,14,10,0.05,200,42,local,10,0.3393,0.1376,0.6916,own adapter + own head
+dbpedia_14,14,10,0.05,200,42,B_personal,10,0.6934,0.557,0.9362,own adapter + agg head
+dbpedia_14,14,10,0.05,200,42,A_headonly,1,0.8648,0.8648,0.8648,"r=0, head only, federated"
+dbpedia_14,14,10,0.05,200,42,sel_perclient,10,0.7221,0.557,0.9362,"per-client vote (biased), 9/10 chose B"
+dbpedia_14,14,10,0.05,200,42,sel_federated,10,0.6934,0.557,0.9362,federation picked B (B=0.9877 A=0.8666)
+dbpedia_14,14,10,0.05,200,42,sel_fed_balanced,10,0.6934,0.557,0.9362,federation picked B (B=0.9145 A=0.8469)
+dbpedia_14,14,10,0.05,200,42,sel_globalprior,10,0.8648,0.8648,0.8648,picked A (E_B=0.5196 E_A=0.8681; true B=0.6934 A=0.8648)
+dbpedia_14,14,10,0.05,200,42,sel_gp_rarefill,10,0.8648,0.8648,0.8648,picked A (E_B=0.6312 E_A=0.8681; true B=0.6934 A=0.8648)
+dbpedia_14,14,10,0.05,200,43,current,1,0.8358,0.8358,0.8358,agg adapter + agg head
+dbpedia_14,14,10,0.05,200,43,local,10,0.2826,0.0654,0.4926,own adapter + own head
+dbpedia_14,14,10,0.05,200,43,B_personal,10,0.4999,0.0654,0.7954,own adapter + agg head
+dbpedia_14,14,10,0.05,200,43,A_headonly,1,0.8088,0.8088,0.8088,"r=0, head only, federated"
+dbpedia_14,14,10,0.05,200,43,sel_perclient,10,0.4999,0.0654,0.7954,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,10,0.05,200,43,sel_federated,10,0.4999,0.0654,0.7954,federation picked B (B=0.9815 A=0.8052)
+dbpedia_14,14,10,0.05,200,43,sel_fed_balanced,10,0.4999,0.0654,0.7954,federation picked B (B=0.8573 A=0.7795)
+dbpedia_14,14,10,0.05,200,43,sel_globalprior,10,0.8088,0.8088,0.8088,picked A (E_B=0.4149 E_A=0.8030; true B=0.4999 A=0.8088)
+dbpedia_14,14,10,0.05,200,43,sel_gp_rarefill,10,0.8088,0.8088,0.8088,picked A (E_B=0.5396 E_A=0.8030; true B=0.4999 A=0.8088)
+dbpedia_14,14,10,0.05,200,44,current,1,0.8118,0.8118,0.8118,agg adapter + agg head
+dbpedia_14,14,10,0.05,200,44,local,10,0.2818,0.1278,0.4188,own adapter + own head
+dbpedia_14,14,10,0.05,200,44,B_personal,10,0.4538,0.151,0.6304,own adapter + agg head
+dbpedia_14,14,10,0.05,200,44,A_headonly,1,0.7696,0.7696,0.7696,"r=0, head only, federated"
+dbpedia_14,14,10,0.05,200,44,sel_perclient,10,0.4538,0.151,0.6304,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,10,0.05,200,44,sel_federated,10,0.4538,0.151,0.6304,federation picked B (B=0.9880 A=0.7825)
+dbpedia_14,14,10,0.05,200,44,sel_fed_balanced,10,0.4538,0.151,0.6304,federation picked B (B=0.8536 A=0.7485)
+dbpedia_14,14,10,0.05,200,44,sel_globalprior,10,0.7696,0.7696,0.7696,picked A (E_B=0.3322 E_A=0.7857; true B=0.4538 A=0.7696)
+dbpedia_14,14,10,0.05,200,44,sel_gp_rarefill,10,0.7696,0.7696,0.7696,picked A (E_B=0.5070 E_A=0.7857; true B=0.4538 A=0.7696)
+dbpedia_14,14,10,0.3,200,42,current,1,0.9618,0.9618,0.9618,agg adapter + agg head
+dbpedia_14,14,10,0.3,200,42,local,10,0.7293,0.5624,0.92,own adapter + own head
+dbpedia_14,14,10,0.3,200,42,B_personal,10,0.9217,0.8682,0.9606,own adapter + agg head
+dbpedia_14,14,10,0.3,200,42,A_headonly,1,0.8304,0.8304,0.8304,"r=0, head only, federated"
+dbpedia_14,14,10,0.3,200,42,sel_perclient,10,0.9217,0.8682,0.9606,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,10,0.3,200,42,sel_federated,10,0.9217,0.8682,0.9606,federation picked B (B=0.9875 A=0.8235)
+dbpedia_14,14,10,0.3,200,42,sel_fed_balanced,10,0.9217,0.8682,0.9606,federation picked B (B=0.9374 A=0.8261)
+dbpedia_14,14,10,0.3,200,42,sel_globalprior,10,0.9217,0.8682,0.9606,picked B (E_B=0.8614 E_A=0.8175; true B=0.9217 A=0.8304)
+dbpedia_14,14,10,0.3,200,42,sel_gp_rarefill,10,0.9217,0.8682,0.9606,picked B (E_B=0.9386 E_A=0.8175; true B=0.9217 A=0.8304)
+dbpedia_14,14,10,0.3,200,43,current,1,0.9734,0.9734,0.9734,agg adapter + agg head
+dbpedia_14,14,10,0.3,200,43,local,10,0.7054,0.594,0.8386,own adapter + own head
+dbpedia_14,14,10,0.3,200,43,B_personal,10,0.9341,0.8614,0.974,own adapter + agg head
+dbpedia_14,14,10,0.3,200,43,A_headonly,1,0.8784,0.8784,0.8784,"r=0, head only, federated"
+dbpedia_14,14,10,0.3,200,43,sel_perclient,10,0.9341,0.8614,0.974,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,10,0.3,200,43,sel_federated,10,0.9341,0.8614,0.974,federation picked B (B=0.9835 A=0.8749)
+dbpedia_14,14,10,0.3,200,43,sel_fed_balanced,10,0.9341,0.8614,0.974,federation picked B (B=0.9668 A=0.8788)
+dbpedia_14,14,10,0.3,200,43,sel_globalprior,10,0.8784,0.8784,0.8784,picked A (E_B=0.8517 E_A=0.8808; true B=0.9341 A=0.8784)
+dbpedia_14,14,10,0.3,200,43,sel_gp_rarefill,10,0.9341,0.8614,0.974,picked B (E_B=0.9659 E_A=0.8808; true B=0.9341 A=0.8784)
+dbpedia_14,14,10,0.3,200,44,current,1,0.9372,0.9372,0.9372,agg adapter + agg head
+dbpedia_14,14,10,0.3,200,44,local,10,0.6623,0.4286,0.8258,own adapter + own head
+dbpedia_14,14,10,0.3,200,44,B_personal,10,0.8891,0.8082,0.9588,own adapter + agg head
+dbpedia_14,14,10,0.3,200,44,A_headonly,1,0.8702,0.8702,0.8702,"r=0, head only, federated"
+dbpedia_14,14,10,0.3,200,44,sel_perclient,10,0.8891,0.8082,0.9588,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,10,0.3,200,44,sel_federated,10,0.8891,0.8082,0.9588,federation picked B (B=0.9830 A=0.8716)
+dbpedia_14,14,10,0.3,200,44,sel_fed_balanced,10,0.8891,0.8082,0.9588,federation picked B (B=0.9485 A=0.8538)
+dbpedia_14,14,10,0.3,200,44,sel_globalprior,10,0.8702,0.8702,0.8702,picked A (E_B=0.7905 E_A=0.8703; true B=0.8891 A=0.8702)
+dbpedia_14,14,10,0.3,200,44,sel_gp_rarefill,10,0.8891,0.8082,0.9588,picked B (E_B=0.9322 E_A=0.8703; true B=0.8891 A=0.8702)
+dbpedia_14,14,10,1.0,200,42,current,1,0.9844,0.9844,0.9844,agg adapter + agg head
+dbpedia_14,14,10,1.0,200,42,local,10,0.9076,0.8378,0.9756,own adapter + own head
+dbpedia_14,14,10,1.0,200,42,B_personal,10,0.9731,0.9632,0.9806,own adapter + agg head
+dbpedia_14,14,10,1.0,200,42,A_headonly,1,0.8946,0.8946,0.8946,"r=0, head only, federated"
+dbpedia_14,14,10,1.0,200,42,sel_perclient,10,0.9731,0.9632,0.9806,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,10,1.0,200,42,sel_federated,10,0.9731,0.9632,0.9806,federation picked B (B=0.9815 A=0.8954)
+dbpedia_14,14,10,1.0,200,42,sel_fed_balanced,10,0.9731,0.9632,0.9806,federation picked B (B=0.9563 A=0.9015)
+dbpedia_14,14,10,1.0,200,42,sel_globalprior,10,0.9731,0.9632,0.9806,picked B (E_B=0.9562 E_A=0.8978; true B=0.9731 A=0.8946)
+dbpedia_14,14,10,1.0,200,42,sel_gp_rarefill,10,0.9731,0.9632,0.9806,picked B (E_B=0.9562 E_A=0.8978; true B=0.9731 A=0.8946)
+dbpedia_14,14,10,1.0,200,43,current,1,0.9818,0.9818,0.9818,agg adapter + agg head
+dbpedia_14,14,10,1.0,200,43,local,10,0.9423,0.8082,0.9814,own adapter + own head
+dbpedia_14,14,10,1.0,200,43,B_personal,10,0.9737,0.9594,0.9826,own adapter + agg head
+dbpedia_14,14,10,1.0,200,43,A_headonly,1,0.9166,0.9166,0.9166,"r=0, head only, federated"
+dbpedia_14,14,10,1.0,200,43,sel_perclient,10,0.9737,0.9594,0.9826,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,10,1.0,200,43,sel_federated,10,0.9737,0.9594,0.9826,federation picked B (B=0.9840 A=0.9219)
+dbpedia_14,14,10,1.0,200,43,sel_fed_balanced,10,0.9737,0.9594,0.9826,federation picked B (B=0.9723 A=0.9145)
+dbpedia_14,14,10,1.0,200,43,sel_globalprior,10,0.9737,0.9594,0.9826,picked B (E_B=0.9723 E_A=0.9230; true B=0.9737 A=0.9166)
+dbpedia_14,14,10,1.0,200,43,sel_gp_rarefill,10,0.9737,0.9594,0.9826,picked B (E_B=0.9723 E_A=0.9230; true B=0.9737 A=0.9166)
+dbpedia_14,14,10,1.0,200,44,current,1,0.9708,0.9708,0.9708,agg adapter + agg head
+dbpedia_14,14,10,1.0,200,44,local,10,0.9188,0.8376,0.9676,own adapter + own head
+dbpedia_14,14,10,1.0,200,44,B_personal,10,0.9625,0.949,0.975,own adapter + agg head
+dbpedia_14,14,10,1.0,200,44,A_headonly,1,0.9268,0.9268,0.9268,"r=0, head only, federated"
+dbpedia_14,14,10,1.0,200,44,sel_perclient,10,0.9625,0.949,0.975,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,10,1.0,200,44,sel_federated,10,0.9625,0.949,0.975,federation picked B (B=0.9795 A=0.9320)
+dbpedia_14,14,10,1.0,200,44,sel_fed_balanced,10,0.9625,0.949,0.975,federation picked B (B=0.9526 A=0.9331)
+dbpedia_14,14,10,1.0,200,44,sel_globalprior,10,0.9625,0.949,0.975,picked B (E_B=0.9444 E_A=0.9322; true B=0.9625 A=0.9268)
+dbpedia_14,14,10,1.0,200,44,sel_gp_rarefill,10,0.9625,0.949,0.975,picked B (E_B=0.9523 E_A=0.9322; true B=0.9625 A=0.9268)
+dbpedia_14,14,10,0.1,100,42,current,1,0.8832,0.8832,0.8832,agg adapter + agg head
+dbpedia_14,14,10,0.1,100,42,local,10,0.4014,0.1858,0.6524,own adapter + own head
+dbpedia_14,14,10,0.1,100,42,B_personal,10,0.7098,0.485,0.8728,own adapter + agg head
+dbpedia_14,14,10,0.1,100,42,A_headonly,1,0.601,0.601,0.601,"r=0, head only, federated"
+dbpedia_14,14,10,0.1,100,42,sel_perclient,10,0.7098,0.485,0.8728,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,10,0.1,100,42,sel_federated,10,0.7098,0.485,0.8728,federation picked B (B=0.9780 A=0.6074)
+dbpedia_14,14,10,0.1,100,42,sel_fed_balanced,10,0.7098,0.485,0.8728,federation picked B (B=0.8217 A=0.5631)
+dbpedia_14,14,10,0.1,100,42,sel_globalprior,10,0.601,0.601,0.601,picked A (E_B=0.5113 E_A=0.6043; true B=0.7098 A=0.6010)
+dbpedia_14,14,10,0.1,100,42,sel_gp_rarefill,10,0.7098,0.485,0.8728,picked B (E_B=0.6670 E_A=0.6043; true B=0.7098 A=0.6010)
+dbpedia_14,14,10,0.1,400,42,current,1,0.923,0.923,0.923,agg adapter + agg head
+dbpedia_14,14,10,0.1,400,42,local,10,0.486,0.197,0.828,own adapter + own head
+dbpedia_14,14,10,0.1,400,42,B_personal,10,0.7705,0.5508,0.8878,own adapter + agg head
+dbpedia_14,14,10,0.1,400,42,A_headonly,1,0.8706,0.8706,0.8706,"r=0, head only, federated"
+dbpedia_14,14,10,0.1,400,42,sel_perclient,10,0.7705,0.5508,0.8878,"per-client vote (biased), 10/10 chose B"
+dbpedia_14,14,10,0.1,400,42,sel_federated,10,0.7705,0.5508,0.8878,federation picked B (B=0.9880 A=0.8738)
+dbpedia_14,14,10,0.1,400,42,sel_fed_balanced,10,0.7705,0.5508,0.8878,federation picked B (B=0.8865 A=0.8665)
+dbpedia_14,14,10,0.1,400,42,sel_globalprior,10,0.8706,0.8706,0.8706,picked A (E_B=0.5519 E_A=0.8752; true B=0.7705 A=0.8706)
+dbpedia_14,14,10,0.1,400,42,sel_gp_rarefill,10,0.8706,0.8706,0.8706,picked A (E_B=0.7614 E_A=0.8752; true B=0.7705 A=0.8706)

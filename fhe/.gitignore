@@ -1,0 +1,3 @@
+# Binaries: go build -o heoft-fhe . and a plain go build, which names it fhe
+/heoft-fhe
+/fhe

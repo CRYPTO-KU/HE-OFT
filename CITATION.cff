@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the technical report below."
+title: "HE-OFT: Privacy-Preserving One-Shot Federated Fine-Tuning under Homomorphic Encryption"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/CRYPTO-KU/HE-OFT"
+authors:
+  - family-names: Kanpak
+    given-names: "Halil İbrahim"
+    affiliation: "Koç University"
+    orcid: "https://orcid.org/0009-0005-0284-5941"
+  - family-names: Sav
+    given-names: Sinem
+    affiliation: "Bilkent University"
+    orcid: "https://orcid.org/0000-0001-9096-8768"
+  - family-names: Küpçü
+    given-names: Alptekin
+    affiliation: "Koç University"
+    orcid: "https://orcid.org/0000-0003-2099-2206"
+preferred-citation:
+  # The technical report. The paper is under review and not yet published.
+  # Replace XXXX.XXXXX with the arXiv identifier once the report is posted.
+  type: article
+  title: "HE-OFT: Privacy-Preserving One-Shot Federated Fine-Tuning under Homomorphic Encryption (Technical Report)"
+  authors:
+    - family-names: Kanpak
+      given-names: "Halil İbrahim"
+    - family-names: Sav
+      given-names: Sinem
+    - family-names: Küpçü
+      given-names: Alptekin
+  journal: "arXiv preprint arXiv:XXXX.XXXXX"
+  url: "https://arxiv.org/abs/XXXX.XXXXX"
+  year: 2026

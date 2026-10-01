@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heoft"
+version = "1.0.0"
+description = "HE-OFT, plaintext side: local fine-tuning, the coverage-weighted head merge, the selection estimator and the attacks"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.9"
+authors = [
+  {name = "Halil İbrahim Kanpak"},
+  {name = "Sinem Sav"},
+  {name = "Alptekin Küpçü"},
+]
+dependencies = [
+  "torch>=2.3",
+  "transformers",
+  "peft",
+  "datasets",
+  "numpy",
+  "Pillow",
+]
+
+[project.optional-dependencies]
+figures = ["matplotlib", "pyyaml"]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["heoft*"]

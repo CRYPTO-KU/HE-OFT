@@ -1,0 +1,19 @@
+# Runs write here. The paper's records are in results/.
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Built figures and binaries, regenerated from the scripts
+figures/*.pdf
+fhe/heoft-fhe
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+.pytest_cache/
