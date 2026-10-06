@@ -1,4 +1,4 @@
-# Measured from IEEEtran with the journal option.
+# Page geometry of the report: two columns of 252 pt in a 516 pt text block.
 #   \the\columnwidth = 252.0pt   \the\textwidth = 516.0pt
 column_width_pt: 252.0
 text_width_pt: 516.0

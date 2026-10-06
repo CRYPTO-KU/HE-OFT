@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Figure 4 of the paper, extraction. One column, one record.
+"""Figure 7 of the technical report, extraction. One column, one record.
 
     python3 figures/make_extraction.py
 

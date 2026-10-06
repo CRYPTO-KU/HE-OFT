@@ -18,8 +18,8 @@ authors:
     affiliation: "Koç University"
     orcid: "https://orcid.org/0000-0003-2099-2206"
 preferred-citation:
-  # The technical report. The paper is under review and not yet published.
-  # Replace XXXX.XXXXX with the arXiv identifier once the report is posted.
+  # The technical report on arXiv. Replace XXXX.XXXXX with its identifier once
+  # the report is posted.
   type: article
   title: "HE-OFT: Privacy-Preserving One-Shot Federated Fine-Tuning under Homomorphic Encryption (Technical Report)"
   authors:

@@ -8,7 +8,7 @@ technical report goes through this module, so a font size is decided once.
     ...
     hp.save(fig, "fig_trends.pdf")
 
-Sizes come from page.yml, measured off IEEEtran with the journal option. A label in a saved figure is 8pt on the page, the same size as the
+Sizes come from page.yml, the page geometry of the report. A label in a saved figure is 8pt on the page, the same size as the
 caption beneath it, because the figure is saved at its final width and included
 with no width option. Never pass width= to \\includegraphics for these, and
 never \\resizebox them. Both rescale the fonts and the plot stops matching the

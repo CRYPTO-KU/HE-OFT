@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Figure 2 of the paper. Four panels, full width, one record behind each.
+"""Figure 4 of the technical report. Four panels, full width, one record behind each.
 
     python3 figures/make_trends.py
 
@@ -95,7 +95,7 @@ def main():
     hp.label(ax[2], "c")
 
     # (d) the test time of one query against the label space, at N = 10 and
-    # d = 768, the rows of cost_vs_d.csv that Table III and the
+    # d = 768, the rows of cost_vs_d.csv that Table 7 and the
     # abstract use. Four curves: colour is what the querier receives, the line
     # style says whether the time is measured on one core or projected on a GPU.
     #   label, CPU     query_total_ms, measured end to end

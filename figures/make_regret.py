@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Figure 3 of the paper, selection. One column, one record per source.
+"""Figure 5 of the technical report, selection. One column, one record per source.
 
     python3 figures/make_regret.py
 
-For each task of Table I, the accuracy of the arrangement each selection rule
+For each task of Table 2, the accuracy of the arrangement each selection rule
 serves, averaged over the three seeds, with a black mark at the better of the
 two servable arrangements chosen per seed. A rule that always picks the better
 arrangement reaches the mark.
