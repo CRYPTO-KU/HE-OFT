@@ -1,8 +1,8 @@
 # HE-OFT
 
 Code and records for *HE-OFT: Privacy-Preserving One-Shot Federated Fine-Tuning
-under Homomorphic Encryption*, by Halil İbrahim Kanpak, Alptekin Küpçü and Sinem
-Sav.
+under Homomorphic Encryption*, by Halil İbrahim Kanpak, Sinem Sav and Alptekin
+Küpçü.
 
 Technical report: [arXiv:2610.08255](https://arxiv.org/abs/2610.08255).
 
@@ -84,7 +84,7 @@ Please cite the technical report.
 ```bibtex
 @article{kanpak2026heoft,
   title   = {{HE-OFT}: Privacy-Preserving One-Shot Federated Fine-Tuning under Homomorphic Encryption (Technical Report)},
-  author  = {Kanpak, Halil \.{I}brahim and K\"up\c{c}\"u, Alptekin and Sav, Sinem},
+  author  = {Kanpak, Halil \.{I}brahim and Sav, Sinem and K\"up\c{c}\"u, Alptekin},
   journal = {arXiv preprint arXiv:2610.08255},
   year    = {2026}
 }
