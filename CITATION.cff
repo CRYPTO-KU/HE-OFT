@@ -9,26 +9,28 @@ authors:
     given-names: "Halil İbrahim"
     affiliation: "Koç University"
     orcid: "https://orcid.org/0009-0005-0284-5941"
-  - family-names: Sav
-    given-names: Sinem
-    affiliation: "Bilkent University"
-    orcid: "https://orcid.org/0000-0001-9096-8768"
   - family-names: Küpçü
     given-names: Alptekin
     affiliation: "Koç University"
     orcid: "https://orcid.org/0000-0003-2099-2206"
+  - family-names: Sav
+    given-names: Sinem
+    affiliation: "Bilkent University"
+    orcid: "https://orcid.org/0000-0001-9096-8768"
 preferred-citation:
-  # The technical report on arXiv. Replace XXXX.XXXXX with its identifier once
-  # the report is posted.
+  # The technical report on arXiv.
   type: article
   title: "HE-OFT: Privacy-Preserving One-Shot Federated Fine-Tuning under Homomorphic Encryption (Technical Report)"
   authors:
     - family-names: Kanpak
       given-names: "Halil İbrahim"
-    - family-names: Sav
-      given-names: Sinem
     - family-names: Küpçü
       given-names: Alptekin
-  journal: "arXiv preprint arXiv:XXXX.XXXXX"
-  url: "https://arxiv.org/abs/XXXX.XXXXX"
+    - family-names: Sav
+      given-names: Sinem
+  journal: "arXiv preprint arXiv:2610.08255"
+  url: "https://arxiv.org/abs/2610.08255"
+  identifiers:
+    - type: doi
+      value: "10.48550/arXiv.2610.08255"
   year: 2026
